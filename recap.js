@@ -23,3 +23,31 @@ const name = 'Abdullah Al Hosain';
 let potatoPrice = 40;
 potatoPrice = 60;
 // console.log(name, potatoPrice);
+
+
+// 2. object property
+const person = {
+    firstName: 'Abdullah',
+    middleName: 'al',
+    lastName: "Hosain",
+    age: 22,
+    height: `5'7"`
+};
+const products = [
+    {name: 'bottle', price: 1200, color: 'red'},
+    {name: 'Notepad', price: 5000, color: 'green'},
+    {name: 'kombol', price: 2300, color: 'white'},
+    {name: 'pen', price: 1100, color: 'blue'},
+    {name: 'plate', price: 6000, color: 'cyan'},
+    {name: 'mobile', price: 90000, color: 'black'}
+];
+let organization = {
+    name: 'ABC Company',
+    ceo: 'kuddus elahi',
+    department: [ 
+        {designer: ['fatema', 'ali', 'salam']},
+        {developer: ['hosain', 'younus', 'khalid']},
+        marketing-team,
+        quality-tester
+    ]
+}
