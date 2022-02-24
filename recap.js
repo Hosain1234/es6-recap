@@ -16,3 +16,10 @@
 9.[challenge] You have an array.Now use destructuring to create a simple(or more) variable to get the third element of the array in a variable called 'three'.
 10. [Optional] Just write a function with 3 parameter and the last parameter will have default value 7. these function will do sum of all the three parameter.
 */
+
+
+// 1. starting from here 
+const name = 'Abdullah Al Hosain';
+let potatoPrice = 40;
+potatoPrice = 60;
+// console.log(name, potatoPrice);
