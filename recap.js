@@ -45,9 +45,20 @@ let organization = {
     name: 'ABC Company',
     ceo: 'kuddus elahi',
     department: [ 
-        {designer: ['fatema', 'ali', 'salam']},
-        {developer: ['hosain', 'younus', 'khalid']},
-        marketing-team,
-        quality-tester
+        {designer: ['fatema', 'ali', 'salam'], publish: ['prothom-alo', 'korotoa', 'the daily star']},
+        {developer: ['hosain', 'younus', 'khalid']}
     ]
-}
+};
+
+
+// 3. arrow function 
+// problem a
+const vagSesh = (x) => x % 5;
+console.log(vagSesh(14));
+// problem b
+const gunon = (x, y) => (x+2)*(y+2);
+console.log(gunon(3,4));
+// problem c and 10
+const multiplyNumbers = (a,b,c=7) => a*b*c ;
+console.log(multiplyNumbers(12,5));
+
